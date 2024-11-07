@@ -85,13 +85,13 @@ const Oceania = () => {
         width={700}
         height={500}
 
-        series={[32.440,.0725,3.029,.097]}
+        series={[32.440,3.029,.097,.0735]}
 
         options={{
            title:{text:"Top 5 Military Spenders  (2023 in Billions)",
                   style:{fontSize:20}
            },
-           labels:["Australia","Fiji","New Zealand","Papua New Guinea"],
+           labels:["Australia","New Zealand","Papua New Guinea","Fiji"],
            dataLabels:{
                enabled:true
            },
@@ -118,7 +118,7 @@ const Oceania = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[1223.2,77.4,579.4,9.4],
+           data:[1223.2,579.4,77.4,9.4],
             }]}
 
         options={{
@@ -130,7 +130,7 @@ const Oceania = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["Australia","Fiji","New Zealand","Papua New Guinea"],
+              categories:["Australia","New Zealand","Fiji","Papua New Guinea"],
               
            },
           

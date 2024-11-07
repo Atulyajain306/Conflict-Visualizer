@@ -120,7 +120,7 @@ const Central_Asia = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[63.1,69.0,13.8],
+           data:[69.0,63.1,13.8],
             }]}
 
         options={{
@@ -132,7 +132,7 @@ const Central_Asia = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["Kazakhstan","Kyrgyz Republic","Tajikistan"],
+              categories:["Kyrgyz Republic","Kazakhstan","Tajikistan"],
               
            },
           

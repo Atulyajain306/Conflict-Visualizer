@@ -130,7 +130,7 @@ const Middle_East = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[2051.9,2997.1,115.3,1799.3,1260.1],
+           data:[2997.1,2051.9,1799.3,1260.1,115.3],
             }]}
 
         options={{
@@ -142,7 +142,7 @@ const Middle_East = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["Saudi Arabia","Israel","Iran","Kuwait","Oman"],
+              categories:["Israel","Saudi Arabia","Kuwait","Oman","Iran"],
               
            },
           

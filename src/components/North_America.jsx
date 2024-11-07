@@ -84,7 +84,7 @@ const North_America = () => {
         width={700}
         height={500}
 
-        series={[27.2215,916.0147]}
+        series={[27.2215,916.1147]}
 
         options={{
            title:{text:"Top  Military Spenders  (2023 in Billions)",
@@ -117,7 +117,7 @@ const North_America = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[701.9,2694.2],
+           data:[2694.2,701.9],
             }]}
 
         options={{
@@ -129,7 +129,7 @@ const North_America = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["Canada","USA"],
+              categories:["USA","Canada"],
               
            },
           

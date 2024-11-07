@@ -127,7 +127,7 @@ const Central_America = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[92.1,78.8,51.0,71.3,23.3],
+           data:[92.1,78.8,71.3,51.0,23.3],
             }]}
 
         options={{
@@ -139,7 +139,7 @@ const Central_America = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["Mexico","Dominican Republic","Honduras","El Salvador","Guatemala"],
+              categories:["Mexico","Dominican Republic","El Salvador","Honduras","Guatemala"],
               
            },
           

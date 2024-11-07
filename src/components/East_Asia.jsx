@@ -87,13 +87,13 @@ const East_Asia = () => {
         width={700}
         height={500}
 
-        series={[296.4386,50.1611,47.9256,0.1478,16.6128]}
+        series={[296.4386,50.1611,47.9256,16.6128,0.1478]}
 
         options={{
-           title:{text:"Top 3 Military Spenders  (2023 in Billions)",
+           title:{text:"Top 5 Military Spenders  (2023 in Billions)",
                   style:{fontSize:20}
            },
-           labels:["China","Japan","South Korea","Mongolia","Taiwan"],
+           labels:["China","Japan","South Korea","Taiwan","Mongolia"],
            dataLabels:{
                enabled:true
            },
@@ -120,7 +120,7 @@ const East_Asia = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[207.9,406.8,925.5,42.9,694.4],
+           data:[925.5,694.4,406.8,207.9,42.9],
             }]}
 
         options={{
@@ -132,7 +132,7 @@ const East_Asia = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["China","Japan","South Korea","Mongolia","Taiwan"],
+              categories:["South Korea","Taiwan","Japan","China","Mongolia"],
               
            },
           

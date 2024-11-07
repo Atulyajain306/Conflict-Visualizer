@@ -87,13 +87,13 @@ const South_Asia = () => {
         width={700}
         height={500}
 
-        series={[4.208,83.6746,0.4189,8.5212,1.1658]}
+        series={[83.6746,8.6212,4.208,1.1658,0.4289]}
 
         options={{
            title:{text:"Top 5 Military Spenders  (2023 in Billions)",
                   style:{fontSize:20}
            },
-           labels:["Bangladesh","India","Nepal","Pakistan","Sri Lanka"],
+           labels:["India","Pakistan","Bangladesh","Sri Lanka","Nepal"],
            dataLabels:{
                enabled:true
            },
@@ -120,7 +120,7 @@ const South_Asia = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[24.3,58.5,13.6,35.4,53.2],
+           data:[58.5,53.2,35.4,24.3,13.6],
             }]}
 
         options={{
@@ -132,7 +132,7 @@ const South_Asia = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["Bangladesh","India","Nepal","Pakistan","Sri Lanka"],
+              categories:["India","Sri Lanka","Pakistan","Bangladesh","Nepal"],
               
            },
           

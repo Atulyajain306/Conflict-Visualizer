@@ -93,13 +93,13 @@ const South_America = () => {
         width={700}
         height={500}
 
-        series={[22.8875,5.4917,10.8011,3.1219,3.0008]}
+        series={[22.8875,10.8011,5.4917,3.1219,3.0008]}
 
         options={{
            title:{text:"Top 5 Military Spenders  (2023 in Billions)",
                   style:{fontSize:20}
            },
-           labels:["Brazil","Chile","Columbia","Argentina","Peru"],
+           labels:["Brazil","Columbia","Chile","Argentina","Peru"],
            dataLabels:{
                enabled:true
            },
@@ -126,7 +126,7 @@ const South_America = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[105.8,279.8,205.5,68.2,87.4],
+           data:[279.8,205.5,105.8,87.4,68.2],
             }]}
 
         options={{
@@ -138,7 +138,7 @@ const South_America = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["Brazil","Chile","Columbia","Argentina","Peru"],
+              categories:["Chile","Columbia","Brazil","Peru","Argentina"],
               
            },
           

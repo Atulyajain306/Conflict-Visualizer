@@ -105,7 +105,7 @@ return (
          colors:['#796ff4'],
          dataLabels:{
              enabled:false,
-             formatter:(val)=>{return `${val},`},
+             formatter:(val)=>{return `${val}%`},
              show:true
            },
          yaxis:{
@@ -114,7 +114,7 @@ return (
              },
              dataLabels:{
                  enabled:true,
-                 formatter:(val)=>{return `${val},`},
+                 formatter:(val)=>{return `${val}`},
                  show:true
              },
          }
@@ -162,7 +162,7 @@ return (
 
       series={[{
          name:"Military 5 Expenditure Per Capita",
-         data:[400.5,137.0,14.3,46.0,34.6],
+         data:[400.5,137.0,46.0,34.6,14.3],
           }]}
 
       options={{
@@ -174,7 +174,7 @@ return (
               title:{text:"Per Capita",
                    style:{fontSize:20}
               },
-            categories:["Algeria","Morocco","Nigeria","South Africa","Angola"],
+            categories:["Algeria","Morocco","South Africa","Angola","Nigeria"],
             
          },
         

@@ -117,13 +117,13 @@ const Europe = () => {
          width={700}
          height={500}
 
-         series={[74.9428,61.3013,64.7532,66.8266,109.4544]}
+         series={[109.4544,74.9428,66.8266,64.7532,61.3113]}
 
          options={{
             title:{text:"Top 5 Military Spenders  (2023 in Billions)",
                    style:{fontSize:20}
             },
-            labels:["UK","France","Ukraine","Germany","Russia"],
+            labels:["Russia","UK","Germany","Ukraine","France"],
             dataLabels:{
                 enabled:true
             },
@@ -150,7 +150,7 @@ const Europe = () => {
 
          series={[{
             name:"Military Expenditure Per Capita",
-            data:[757.8,1762.2,1106.4,946.6,802.3],
+            data:[1762.2,1106.4,946.6,802.3,757.8],
              }]}
 
          options={{
@@ -162,7 +162,7 @@ const Europe = () => {
                  title:{text:"Per Capita",
                       style:{fontSize:20}
                  },
-               categories:["Russia","Ukraine","UK","France","Germany"],
+               categories:["Ukraine","UK","France","Germany","Russia"],
                
             },
            

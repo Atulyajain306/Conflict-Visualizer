@@ -92,13 +92,13 @@ const South_East_Asia = () => {
         width={700}
         height={500}
 
-        series={[13.2,9.48,5.765,3.9,5.4]}
+        series={[13.2,9.48,5.765,5.4,3.9]}
 
         options={{
            title:{text:"Top 5  Military Spenders  (2023 in Billions)",
                   style:{fontSize:20}
            },
-           labels:["Singapore","Indonesia","Thailand","Malaysia","Philippines"],
+           labels:["Singapore","Indonesia","Thailand","Philippines","Malaysia"],
            dataLabels:{
                enabled:true
            },
@@ -125,7 +125,7 @@ const South_East_Asia = () => {
 
         series={[{
            name:"Military Expenditure Per Capita",
-           data:[2194.6,34.2,80.3,113.6,46.5],
+           data:[2194.6,113.6,80.3,46.5,34.2],
             }]}
 
         options={{
@@ -137,7 +137,7 @@ const South_East_Asia = () => {
                 title:{text:"Per Capita",
                      style:{fontSize:20}
                 },
-              categories:["Singapore","Indonesia","Thailand","Malaysia","Philippines"],
+              categories:["Singapore","Malaysia","Thailand","Philippines","Indonesia"],
               
            },
           
